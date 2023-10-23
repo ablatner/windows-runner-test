@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-host-win:
-    runs-on: windows-latest-8-core
+    runs-on: windows-latest
 
     steps:
     - name: Checkout
