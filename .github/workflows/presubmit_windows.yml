@@ -19,9 +19,9 @@ jobs:
       with:
         python-version: '3.9.13'
 
-    # - name: Install setuptools
-    #   shell: cmd
-    #   run: py -m pip install --upgrade pip setuptools wheel
+    - name: Install setuptools
+      shell: cmd
+      run: py -m pip install --upgrade pip setuptools wheel
 
     - name: Get version string
       shell: cmd
